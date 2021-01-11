@@ -1,11 +1,11 @@
 import java.util.Scanner;
+//scanner fuction use for taking inpu from user
 
-/*
- * This function is to perform arithmatic operations
- */
+ //This function is to perform arithmatic operations
+
 public class ArithmaticOperations {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
     Scanner scan = new Scanner(System.in);
     
@@ -18,12 +18,12 @@ public class ArithmaticOperations {
     
     // Now Perform arithmatic operations
     
-    int addition        = num1 + num2;
-    int substraction    = num1 - num2;
-    int multiplication  = num1 * num2;
-    int division        = num1 / num2;
+    int addition        = (num1 + num2);
+    int substraction    = (num1 - num2);
+    int multiplication  = (num1 * num2);
+    int division        = (num1 / num2);
     
-    // now we print result to console
+    // now we have to print result to console
     
     System.out.println("Addition : "       + addition );
     System.out.println("Substraction : "   + substraction);
